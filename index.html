@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Motori</title>
+	<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	
+	
+</head>
+<body>
+	<div class="par">
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">POČETNA</a></li>
+					<li><a href="#sadrzaj">GALERIJA</a></li>
+					<li><a href="#par1">KUPOVINA</a></li>
+					<li><a href="#vestiDiv">VESTI</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="poruka">PORUKA</div>
+		<div class="chat">
+			<h1>Brza poruka:</h1>
+			<form action="">
+				<label for="fname">Ime</label><br>
+				<input type="text" id="fname"><br>
+				<label for="fmail">E-mail</label><br>
+				<input type="mail"><br>
+				<label for="farea">Poruka</label><br>
+				<textarea name="farea" id="farea" cols="25" rows="10"></textarea>
+				<button class="btnPoruka">Pošalji</button>
+			</form>
+			<span class="chatZatvori">x</span>
+		</div>
+		<div id="drugiDeo">
+			<div class="headInfo">
+				<h2>Ovlašćeni servis 1</h2>
+				<p><i class="fas fa-map-marker-alt"></i> Bulevar Kralja Aleksandra</p>
+				<p><i class="fas fa-phone"></i> 064444444565</p>
+			</div>
+			<div class="headInfo">
+				<h2>Ovlašćeni servis 2</h2>
+				<p><i class="fas fa-map-marker-alt"></i> Ustanička</p>
+				<p><i class="fas fa-phone"></i> 064444444565</p>
+			</div>
+			<div class="headInfo">
+				<h2>Ovlašćeni servis 3</h2>
+				<p><i class="fas fa-map-marker-alt"></i> Takovska</p>
+				<p><i class="fas fa-phone"></i> 064444444565</p>
+			</div>
+			<div class="headInfo">
+				<h2>Ovlašćeni servis 4</h2>
+				<p><i class="fas fa-map-marker-alt"></i> Vojvode Stepe</p>
+				<p><i class="fas fa-phone"></i> 064444444565</p>
+			</div>
+			<div class="headInfo">
+				<h2>Ovlašćeni servis 5</h2>
+				<p><i class="fas fa-map-marker-alt"></i> Vojislava Ilića</p>
+				<p><i class="fas fa-phone"></i> 064444444565</p>
+			</div>
+		</div>
+	</div>
+	<div id="sadrzaj" style="padding: 50px; text-align: center; padding-right: 10%; background-color: #e5e5e5;">
+		<div id="sadrzaj_1">
+			<div id="slajder">
+				<div class="myDiv">
+					<img src="images/slika1.jpg" style="width: 100%">
+				</div>
+				<div class="myDiv">
+					<img src="images/slika2.jpg" style="width: 100%">
+				</div>
+				<div class="myDiv">
+					<img src="images/slika3.jpg" style="width: 100%">
+				</div>
+				<div class="myDiv">
+					<img src="images/slika4.jpg" style="width: 100%">
+				</div>
+
+				<a class="prev" onclick="levoDesno(-1)">&#10094;</a>
+				<a class="next" onclick="levoDesno(1)">&#10095;</a>
+			</div>
+
+			<div style="text-align: center;">
+				<span class="dot" onclick="slajdTacka(1)"></span>
+				<span class="dot" onclick="slajdTacka(2)"></span>
+				<span class="dot" onclick="slajdTacka(3)"></span>
+				<span class="dot" onclick="slajdTacka(4)"></span>
+			</div>
+		</div>
+		<div id="sadrzaj_2">
+			<h1>Naslov</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		
+		
+	</div>
+	<div id="par1">
+		<div class="prviRed">
+			<form style="float: left;">
+				<span class="naziv" style="float: left;">IME:</span> <input type="text" onkeyup="myFunction()" name="ime" class="imeAutomobila"><br>
+				<span class="naziv" style="float: left;">GODIŠTE</span> OD: 
+				<input type="text" onkeyup="filterGod()" id="godOd" name="godisteOd"><br> DO: <input type="text" id="godDo" onkeyup="filterGod()" name="godisteDo"><br>
+				<span class="naziv" style="float: left;">REGISTROVAN:</span>
+				<input type="radio" name="reg" class="reg" value="Da" onclick="filterReg('Da')">DA
+				<input type="radio" name="reg" class="reg" value="Ne" onclick="filterReg('Ne')">NE <br>
+			</form>	
+		</div>
+		<div class="drugiRed">
+			<div class="motorLista" data-ime="Kawasaki" data-god="2000" data-reg="Da">
+					<img src="images/motor3.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Kawasaki <br>	
+					<b>Godište:</b> 2000. <br>
+					<b>Registrovan:</b> Da <br>
+			</div>
+			<div class="motorLista" data-ime="Yamaha" data-god="2003" data-reg="Da">
+					<img src="images/motor1.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Yamaha <br>	
+					<b>Godište:</b> 2003. <br>
+					<b>Registrovan:</b> Da <br>
+			</div>
+			<div class="motorLista" data-ime="Honda" data-god="2005" data-reg="Da">
+					<img src="images/motor2.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Honda <br>	
+					<b>Godište:</b> 2005. <br>
+					<b>Registrovan:</b> Da <br>
+			</div>
+			<div class="motorLista" data-ime="Kawasaki" data-god="1992" data-reg="Ne">
+					<img src="images/motor5.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Kawasaki <br>	
+					<b>Godište:</b> 1992. <br>
+					<b>Registrovan:</b> Ne <br>
+			</div>
+			<div class="motorLista" data-ime="Suzuki" data-god="1999" data-reg="Da">
+					<img src="images/motor6.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Suzuki <br>	
+					<b>Godište:</b> 1999. <br>
+					<b>Registrovan:</b> Da <br>
+			</div>
+
+			<div class="motorLista" data-ime="Honda" data-god="2010" data-reg="Da">
+					<img src="images/motor7.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Honda <br>	
+					<b>Godište:</b> 2010. <br>
+					<b>Registrovan:</b> Da <br>
+			</div>
+			<div class="motorLista" data-ime="Yamaha" data-god="2000" data-reg="Ne">
+					<img src="images/motor8.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Yamaha <br>	
+					<b>Godište:</b> 2000. <br>
+					<b>Registrovan:</b> Ne <br>
+			</div>
+			<div class="motorLista" data-ime="Piaggio" data-god="2008" data-reg="Ne">
+					<img src="images/motor4.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Piaggio <br>	
+					<b>Godište:</b> 2008. <br>
+					<b>Registrovan:</b> Ne <br>
+			</div>
+			<div class="motorLista" data-ime="Suzuki" data-god="1988" data-reg="Da">
+					<img src="images/motor10.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Suzuki <br>	
+					<b>Godište:</b> 1988. <br>
+					<b>Registrovan:</b> Da <br>
+			</div>
+			<div class="motorLista" data-ime="Piaggio" data-god="1991" data-reg="Ne">
+					<img src="images/motor9.jpg" class="oglasSlika"><br>
+					<b>Ime:</b> Piaggio <br>	
+					<b>Godište:</b> 1991. <br>
+					<b>Registrovan:</b> Ne <br>
+			</div>
+		</div>
+	</div>
+
+	<div id="vestiDiv">
+		<div id="vesti">
+			<article onclick="prikaziVest(1)">
+				<img src="images/slikavesti1.jpg">
+				<h4>PRVI DUCATI DIAVEL 1260 JE SPREMAN DA IZAĐE NA ULICE</h4>
+				<p>Nakon što je nedavno premijerno predstavljen, novi Ducati...</p>
+			</article>
+			<article onclick="prikaziVest(2)">
+				<img src="images/slikavesti2.jpg">
+				<h4>KIJANU RIVS KREIRAO JOŠ JEDAN NEVEROVATNI MOTOR</h4>
+				<p>Popularni glumac je vlasnik fabrike u kojoj kreira neke od najlepših...</p>
+			</article>
+			<article onclick="prikaziVest(3)">
+				<img src="images/slikavesti3.jpg">
+				<h4>KIJANU RIVS POKAZAO SVOJU KOLEKCIJU MOTORA</h4>
+				<p>Kada govorimo o holivudskim glumcima, onda je Kijanu Rivs...</p>
+			</article>
+			<article onclick="prikaziVest(4)">
+				<img src="images/slikavesti4.jpg">
+				<h4>CENA ELEKTRIČNOG HARLEY DAVIDSON MOTORA NAPOKON OTKRIVENA</h4>
+				<p>Čak je i brend koji je sinonim za benzin, glasne zvukove i...
+				</p>
+			</article>
+			
+		</div>
+		<hr>
+		<div id="prikazVesti">
+			<div class="prikaz">
+				<img src="images/velikaSlikaV1.jpg">
+				Nakon što je nedavno bio premijerno predstavljen, novi Ducati Diavel sada je spreman i da izađe na ulice...<br><br>
+				Diavel 1260 je zaista fantastičan dvotočkaš koji spaja najbolje stvar iz modernog, ali i „oldschool“ sveta, pa nam donosi motor koji je moderan, privlačan i aerodinamičan, ali koji istovremeno pokazuje svoju snagu, agresivnost i brzinu.<br><br>
+				Testastretta DVT 1262 je motor koji se nalazi unutar ovog dvotočkaša, i kao što možete primetiti, reč je o agregatu koji ima zapreminu od 1.2 litara. Ovaj motor proizvodi 160 konjskih snaga, što je dovoljno da mu obezbedi prilično impresivne performanse.<br><br>
+				Šasija ovog Diavela drastično je promenjena u odnosu na prethodni model, kako bi se povećala njegova agilnost i stabilnost, tako da je ovaj motor sada mnogo lakše voziti po uskim ulicama i manervisati sa njim kroz gust gradski saobraćaj.<br><br>
+				Motor je takođe unapređen i u tehnološkom smislu, pa se na njemu nalazi i novi napredni sistem kočenja, kao i najmodernija kontrola proklizavanja koja obezbeđuje najveću sigurnost čak i pri maksimalnim briznama i po klizavom terenu.<br><br>
+				Cena ovog motora iznosiće skoro 20.000 dolara, što znači da ovo neće biti tako pristupačan dvotočkaš, ali verujemo da će pravi ljubitelji naći novac da ga kupe, ako im je to velika želja.
+			</div>
+			<div class="prikaz">
+				<img src="images/velikaSlikaV2.jpg">
+				Popularni glumac je vlasnik fabrike u kojoj kreira neke od najlepših dvotočkaša na svetu...
+				<br><br>
+				Kada govorimo o holivudskim glumcima sa A liste, onda je Kijanu Rivs jedan od najpoznatijih i najpopularnijih glumaca. Međutim, iako je jedan od glumačkih velikana, ovaj čovek živi skromnim životom i trudi se da bude normalna osoba. Vozi se metroom, ne troši milione dolara na gluposti i trudi se da pomogne svim svojim fanovima.
+				<br><br>
+				Ipak, Kijanu ne krije da je veliki ljubitelj dvotočkaša i on je definitivno jedan od najvećih bajkera Holivuda. Zbog toga je on odlučio da se posveti svojoj strasti i hobiju i da počne da kreira unikatne motore. Njegova kompanija nosi naziv „Arch Motorcycle“ i sada je predstavila novo remek delo koje nosi naziv Method 143. Ovo je ograničeno izdanje koje će biti proizvedeno samo u 23 primerka, što znači da će samo srećnici moći da priušte ovaj motor.
+				<br><br>
+				Method 143 je napravljen od karbonskih vlakana što ga čini neverovatno lakim i jakim i zbog toga je on ultimativni trkački motor. Što se tiče dizajna, ovaj motor je zaista neverovatan i teško ga je opisati rečima. Jasno se vidi sudar „oldschool“ dizajna i moderne tehnologije, ali Arch Motorcycle kompanija se potrudila da ovo bude „nejked“ model sa ogromnim prednjim farom koji zaista izgleda fenomenalno.
+				<br><br>
+				Motor deluje snažno i agresivno, a ogromne izduvne grane i masivni rezervoar samo pojačavaju takav izgled. Ispod rezervoara se nalazi V motor od 1400 kubika koji stvara prilično veliku konjažu i koji će vam omogućiti sjajne vozačke performanse.
+				<br><br>
+				Nažalost, informacije o ceni nisu dostupne i to će moći da saznaju samo oni koji budu kontaktirali ovu kompaniju i koji budu naručili ovo remek delo na dva točka.
+			</div>
+			<div class="prikaz">
+				<img src="images/velikaSlikaV3.jpg">
+				Kada govorimo o holivudskim glumcima sa A liste, onda je Kijanu Rivs jedan od najpoznatijih i najpopularnijih glumaca. Međutim, iako je jedan od glumačkih velikana, ovaj čovek živi skromnim životom i trudi se da bude normalna osoba. Vozi se metroom, ne troši milione dolara na gluposti i trudi se da pomogne svim svojim fanovima.
+				<br><br>
+				Ipak, Kijanu ne krije da je veliki ljubitelj dvotočkaša i on je definitivno jedan od najvećih bajkera Holivuda. Zbog toga je on odlučio da se posveti svojoj strasti i hobiju i da počne da kreira unikatne motore. Njegova kompanija nosi naziv „Arch Motorcycle“ i kreira motore koji spajaju retro dizajn za modernom tehnologijom i tako vozačima pružaju sjajnu vožnju na “old-school” motorima.
+				<br><br>
+				Kijanu sarađuje sa poznatim dizajnerom Gardom Holingerom koji je njegov poslovni partner i koji je odgovoran za ove kreacije. Pošto je reč o „Custom Made“ motorima koji su jedinstveni, cena ovih dvotočkaša je prilično visoka, pa se u proseku ovi motori mogu kupiti za oko 78.000 $. Naravno, cena varira od modela do modela, ali ono što treba da znate da će vam biti potrebno oko 70.000 ako želite motor Kijanu Rivsa.
+				<br><br>
+				Osim što sada poseduje firmu koja kreira dovotčkaše, KIjanu poseduje prilično veliku i skupocenu koelkciju motora koje je počeo da kupuje kad aje imao samo 18. godina. On je u intervjuu za CQ otkrio da je kao vrlo mlad naučio da vozi motore i da su g auvek uzbuđivale moto bande koje su se okupljale u nejgovom kraju. Tako je ons tvorio ljubav prema dvotočkašima koju gaji i dan danas i zbog koje je pšostoa pravi moto kolekcionar.
+			</div>
+			<div class="prikaz">
+				<img src="images/velikaSlikaV4.jpg">
+				Čak je i brend koji je sinonim za benzin, glasne zvukove i motore sa unutrašnjim sagorevanjem odlučio da kreira električnu verziju, jer je jasno da u skorijoj budućnosti goriva više neće biti...
+				<br><br>
+				Harley Davidson je kompanija koja decenijama proizvodi neverovatno snažne i bučne dvotočkaše koji su postali sinonim slobode, bunta i rokenrola. Međutim, ni kreatori Harley motora nisu mogli da izbegnu činjenicu da je goriva sve manje i da će jednog dana sigurno nestati. Zato je Harley Davidson kompanija odlučila da predstavi svoje prvo električno vozilo koje nosi naziv LiveWire.
+				<br><br>
+				Reč je o projektu koji je započet pre 4 godine i koji je napokon realizovan. Električni agregat koji će se nalaziti u ovom motoru će proizvoditi 74 konjske snage i omogućiće vozačima performanse na koje su navikli. Ipak, mnogi vozači ovih motora nemaju lepo mišljenje o ovoj električnoj verziji, jer kažu da se tako gubi čitava suština ovog brenda. Takođe, mnogi dodaju i nedostatak karakterističnog zvuka motora koji će verovatno biti izgubljen zbog električnog agregata, osim ako Harley Davidson kompanija ne dođe do nekog rešenja koje će stvarati dobro poznati zvuk.
+				<br><br>
+				Kompanija Harley Davidson je sada otkrila i po neki detalj o ovom motoru. Prva stvar koju smo saznali jeste da je cena ovog dvotočkaša 29,799 dolara. Drugi detalji tiču se performansi i samog električnog agregata. Novi LiveWire motor moćiće maksimlano da pređe 100 kilometara sa jednim punjenjem, što je zaista mala kilometraža, ali iz Harley Davidson kompanije kažu da su oni hteli da omoguće vozačima da brže pune baterije motora, to znači da ćete posle pređenog puta od 100 kilometara, morati da punite bateriju pola sata, kako biste nastavili putovanje. Kada se uzme u obzir da se neka električna vozila pune i do 24 sata, onda se ovo čini kao idealno rešenje koje štedi vreme. Takođe, motor će biti prilično brz i moćiće da brzinu od 0 do 100 km/h postigne za 3. 5 sekundi.
+			</div>
+			
+			<div class="prikaz">
+				das
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		Copyright © 2019. Igor Lakić
+	</footer>
+
+	<button onclick="topFunction()" id="dugmeVrh">TOP</button>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+
