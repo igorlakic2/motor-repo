@@ -8,4 +8,3 @@
 ![Alt text](readme_img/ss7.jpg?raw=true "Title")
 ![Alt text](readme_img/ss8.jpg?raw=true "Title")
 ![Alt text](readme_img/ss9.jpg?raw=true "Title")
-![Alt text](readme_img/ss10.jpg?raw=true "Title")
